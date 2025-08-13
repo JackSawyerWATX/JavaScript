@@ -6,6 +6,6 @@ const rl = readline.createInterface({
 });
 
 rl.question("Enter your name: ", function(name) {
-  console.log("Hello, " + name);
-  rl.close();
+  console.log("Hello, " + name + "!");
+  rl.close(); 
 });
