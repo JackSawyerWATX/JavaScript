@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombers of the Cold War</title>
+</head>
+
+<body>
+    <h2>Bombers of the Cold War</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const planes = [
+            "Boeing B-29 Superfortress",
+            "Boeing B-36 Peacemaker", 
+            "Boeing B-47 Stratojet", 
+            "Boeing B-52 Stratofortress"
+        ];
+        let i, len, text;
+        for (i = 0, len = planes.length, text = ""; i < len; i++) {
+            text += planes[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
